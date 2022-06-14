@@ -16,5 +16,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "url": "https://github.com/bhumit070/vscode-snippet-extension"
     }
 }
