@@ -1,0 +1,107 @@
+{    
+    "This will print log.console" : { 
+      "prefix": "lgc", 
+      "body": [  
+        "log.console($1)$2",
+      ],
+      "description": "This will print log.console"
+    },
+    "This will print log.console with object" : { 
+      "prefix": "lgco", 
+      "body": [  
+        "log.console(\"$1\", $1)$2",
+      ],
+      "description": "This will print log.console with object"
+    },
+    "This will print log.black" : { 
+      "prefix": "lgb", 
+      "body": [  
+        "log.black($1)$2",
+      ],
+      "description": "This will print log.black"
+    },
+    "This will print log.red" : { 
+      "prefix": "lgr", 
+      "body": [  
+        "log.red($1)$2",
+      ],
+      "description": "This will print log.red"
+    },
+    "This will print log.green" : { 
+      "prefix": "lgg", 
+      "body": [  
+        "log.green($1)$2",
+      ],
+      "description": "This will print log.green"
+    },
+    "This will print log.yellow" : { 
+      "prefix": "lgy", 
+      "body": [  
+        "log.yellow($1)$2",
+      ],
+      "description": "This will print log.yellow"
+    },
+    "This will print log.blue" : { 
+      "prefix": "lgbl", 
+      "body": [  
+        "log.blue($1)$2",
+      ],
+      "description": "This will print log.blue"
+    },
+    "This will print log.magenta" : { 
+      "prefix": "lgm", 
+      "body": [  
+        "log.magenta($1)$2",
+      ],
+      "description": "This will print log.magenta"
+    },
+    "This will print log.cyan" : { 
+      "prefix": "lgcy", 
+      "body": [  
+        "log.cyan($1)$2",
+      ],
+      "description": "This will print log.cyan"
+    },
+    "This will print log.white" : { 
+      "prefix": "lgw", 
+      "body": [  
+        "log.white($1)$2",
+      ],
+      "description": "This will print log.cyan"
+    },
+    "This will print log.error" : { 
+      "prefix": "lge", 
+      "body": [  
+        "log.error($1)$2",
+      ],
+      "description": "This will print log.error"
+    },
+    "This will print log.warn" : { 
+      "prefix": "lgwa", 
+      "body": [  
+        "log.warn($1)$2",
+      ],
+      "description": "This will print log.warn"
+    },
+    "This will print log.table" : { 
+      "prefix": "lgt", 
+      "body": [  
+        "log.table($1)$2",
+      ],
+      "description": "This will print log.table"
+    },
+    "This will print log.info" : { 
+      "prefix": "lgi", 
+      "body": [  
+        "log.info($1)$2",
+      ],
+      "description": "This will print log.info"
+    },
+    "This will print log.trace" : { 
+      "prefix": "lgtr", 
+      "body": [  
+        "log.trace($1)$2",
+      ],
+      "description": "This will print log.trace"
+    },
+}
